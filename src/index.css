@@ -1,13 +1,102 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Poppins', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: #000D26 !important;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+font-family: 'Poppins', sans-serif;
+}
+
+@font-face {
+  font-family: 'Poppins-Regular';
+  src: url(/src/assets/font/Poppins/Poppins-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Poppins-Light';
+  src: url(/src/assets/font/Poppins/Poppins-Light.ttf);
+}
+
+@font-face {
+  font-family: 'JosefinSans-Medium';
+  src: url(/src/assets/font/Poppins/Poppins-Medium.ttf);
+}
+@font-face {
+  font-family: 'Poppins-Bold';
+  src: url(/src/assets/font/Poppins/Poppins-Bold.ttf);
+}
+.css-1d3z3hw-MuiOutlinedInput-notchedOutline{
+  border-color: #fff !important;
+
+}
+.css-i4bv87-MuiSvgIcon-root {
+  fill: #fff !important;
+}
+.css-12yjm75-MuiInputBase-input-MuiOutlinedInput-input,
+.css-12yjm75-MuiInputBase-input-MuiOutlinedInput-input::placeholder {
+  color: #fff !important;
+}
+.Partpaid {
+  background-color: #FFBF1B14;
+  color: #FCB90D;
+  width: fit-content;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.unpaid{
+  background-color: #FF666614;
+color: #FF6666;
+width: fit-content;
+  padding: 10px;
+  margin: auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.paid{
+  background-color: #71DDB130;
+  color: #71DDB1;
+  width: fit-content;
+    padding: 10px;
+      margin: auto;
+      border-radius: 10px;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      -ms-border-radius: 10px;
+      -o-border-radius: 10px;
+}
+.m-38a85659{
+  width: fit-content !important;
+}
+.visit__note {
+  width: 290px !important;
+  text-align: left !important;
+}
+.visit__title {
+  text-align: left !important;
+}
+.report_thead__zPTxf th,
+.dashboard_thead__eHJ6Q th{
+  background-color: #183953 !important;
+    color: #fff !important;
+}
+.report_tabs__xIvaN .table,
+.dashboard_tabs__WWsSG .table{
+  border-color: #818181 !important;
+}
+.report_tabs__xIvaN td,
+.dashboard_tabs__WWsSG td{
+  background-color: #19253C !important;
+  padding: 25px !important;
+  color: #fff !important;
 }

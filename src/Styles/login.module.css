@@ -1,0 +1,251 @@
+.loginpage {
+    width: 40%;
+    margin-top: 75px;
+    border: 1px solid var(--border-login);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-color: #263147;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+color: #fff;
+    margin:75px  auto;
+    font-family: 'Poppins-Regular';
+
+}
+
+.row {
+    justify-content: space-between !important;
+}
+
+.logcol {
+    background-color: #F5B91D;
+    padding-right: 0 !important;
+    border-radius: 0px 10px 10px 0px;
+    background-position: center;
+    background-size: contain;
+}
+
+.logo__body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo__img {
+    width: 100%;
+    text-align: center !important;
+    margin-bottom: 100px;
+}
+
+.signup {
+    color: #263147 !important;
+    font-size: 17px !important;
+    font-weight: bold !important;
+    border: 1px solid #263147 !important;
+    padding: 10px 50px !important;
+    text-decoration: none !important;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+
+.login__form {
+    padding: 100px !important;
+    padding-right: 70px !important;
+    padding-bottom: 100px !important;
+    
+}
+
+.signup__form {
+    padding: 100px 100px 80px 0 !important;
+
+}
+.logo{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.signin__title {
+    color: var(--text-color);
+font-family: 'Poppins-Regular';
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-align: center;
+}
+
+.signin__para {
+    color: var(--text-color);
+font-family: 'Poppins-Regular';  
+  font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.48px;
+}
+
+.signin__form {
+    margin-top: 50px !important;
+}
+
+.label {
+    color: var(--text-color);
+font-family: 'Poppins-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.full {
+    border-radius: 40px !important;
+    background: #FFF !important;
+    width: 100% !important;
+    -webkit-border-radius: 40px !important;
+    -moz-border-radius: 40px !important;
+    -ms-border-radius: 40px !important;
+    -o-border-radius: 40px !important;
+    color: black !important;
+}
+
+.full:focus {
+    box-shadow: none !important;
+    outline: none !important;
+    border: 1px solid #263147 !important;
+}
+.full::placeholder{
+    color: black !important;
+}
+.check__body {
+    display: flex;
+    column-gap: 10px;
+}
+
+.check__body p {
+    color: var(--text-color);
+font-family: 'Poppins-Regular';
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    padding-top: 7px;
+}
+
+.checkbox_container {
+    display: inline-block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 16px;
+    user-select: none;
+}
+
+.custom_checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 10px;
+    top: 8px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+}
+
+.custom_checkbox:checked~.checkmark {
+    background-color: #263147;
+    box-shadow: 0 3px 7px rgba(33, 150, 243, 0.3);
+}
+
+.custom_checkbox:checked~.checkmark:after {
+    display: block;
+}
+
+@keyframes checkAnim {
+    0% {
+        height: 0;
+    }
+
+    100% {
+        height: 10px;
+    }
+}
+
+.custom_checkbox:checked~.checkmark:after {
+    animation: checkAnim 0.2s forwards;
+}
+
+.btns {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.log__btn {
+    border-radius: 36px;
+    background-color: #617bad;
+    border: none;
+    padding: 8px 70px;
+    color: #fff;
+font-family: 'Poppins-Regular';
+}
+
+.btn__para {
+    color: rgba(135, 135, 135, 0.80);
+    font-family: 'JosefinSans-Regular';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0.48px;
+    margin-top: 30px;
+}
+
+.btn__link {
+    color: #F5B91D;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 22px;
+    letter-spacing: 0.48px;
+    text-decoration: none;
+}
+.logoform{
+    width: 50px;
+
+
+}
+.logouto{
+    text-align: center;
+        margin: auto;
+}

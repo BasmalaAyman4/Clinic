@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.css-exd1zr{
+    display: none !important;
+
+}
+.css-8k4lth {
+    position: absolute !important;
+    top: 95% !important;
+    left: 15% !important;
+    color: #fff !important;
+}
+.css-lqq3n7-MuiButtonBase-root-MuiPaginationItem-root.Mui-disabled,
+.css-lqq3n7-MuiButtonBase-root-MuiPaginationItem-root{
+    background-color: #fff !important;
+}
+.css-lqq3n7-MuiButtonBase-root-MuiPaginationItem-root.Mui-selected{
+    background-color: #ced4da !important;
+}
+.css-1yhpg23-MuiTableCell-root{
+    border-bottom: none !important;
+}
+.css-15wwp11-MuiTableHead-root{
+    color: #fff !important;
+}
+.css-1ndpvdd-MuiTableCell-root:nth-child(1) {
+    border-radius: 0px 10px 0px 0px !important;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.css-1ndpvdd-MuiTableCell-root:last-child {
+    border-radius: 10px 0px 0px 0px !important;
+    -webkit-border-radius: 10px 0px 0px 0px !important;
+    -moz-border-radius: 10px 0px 0px 0px !important;
+    -ms-border-radius: 10px 0px 0px 0px !important;
+    -o-border-radius: 10px 0px 0px 0px !important;
+}
+ul{
+    padding-left: 0 !important;
+}
+.css-1v8abvc-MuiInputBase-root-MuiOutlinedInput-root {
+    width: 600px !important;
+    height: 55px !important;
+    border-radius: 30px !important;
+    -webkit-border-radius: 30px !important;
+    -moz-border-radius: 30px !important;
+    -ms-border-radius: 30px !important;
+    -o-border-radius: 30px !important;
+}
+ .m-8fb7ebe7{
+    width: 228px !important;
+}
+.mantine-Select-input{
+    width: 100% !important;
+
+} 
+option{
+    color: #ced4da !important;
+}
+.pricesub .m-8fb7ebe7{
+    width: 100% !important ;
+}
+.m-811560b9{
+        color: #fff !important;
+        text-align: center !important;
+}
+a{
+    text-decoration: none !important;
+    color: #000 !important;
+}
+.addteacher .m-8fb7ebe7{
+    width: 100% !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.imgcell{
+    width: 40px !important;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.modal-content{
+    background-color: #142037 !important;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form-control{
+    background-color: gray !important;
+    color: #fff !important;
 }

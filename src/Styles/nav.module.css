@@ -1,0 +1,159 @@
+.header__link {
+    text-decoration: none;
+    font-family: 'JosefinSans-Regular';
+    color: var(--text-color);
+    font-size: 18px;
+display: none;
+}
+
+.header__link:hover {
+    color: #0194FE;
+}
+.navbar {
+    height: 70px;
+    border-bottom: 0.5px solid rgb(231, 228, 228);
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #555;
+    font-family: 'JosefinSans-Regular';
+}
+
+.wrapper {
+    width: 100%;
+    padding: 15px !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 8px !important;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    padding: 3px 0;
+}
+
+input {
+    border: none;
+    outline: none;
+    background: transparent;
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+.items {
+    display: flex;
+    align-items: center;
+    padding-right: 40px;
+}
+
+body[dir="rtl"] .items {
+    flex-direction: row-reverse;
+    direction: rtl !important;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    margin-right: 35px;
+    position: relative;
+}
+
+body[dir="rtl"] .item {
+    margin-left: 35px;
+}
+
+.icon {
+    font-size: 20px;
+    color: var(--text-color);
+}
+
+.avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.counter {
+    width: 15px;
+    height: 15px;
+    background-color: rgb(190, 4, 4);
+    border-radius: 50%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+    font-weight: bold;
+    position: absolute;
+    top: -5px;
+    right: -5px;
+}
+
+.user__body p {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.user__name {
+    font-size: 17px;
+    font-weight: bold;
+    color: #000;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.user__po {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.50);
+    padding-top: 0;
+    margin-top: 0;
+}
+
+body[dir="rtl"] .user {
+    direction: rtl;
+    text-align: left;
+}
+
+.inputBox_container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 500px;
+    height: 50px;
+    background:  linear-gradient(112deg, rgba(221, 221, 221, 0.29) 7.59%, rgba(221, 221, 221, 0.17) 102.04%);
+    border-radius: 0.8em;
+    overflow: hidden;
+}
+
+.search_icon {
+    height: 1em;
+    padding: 0 0.5em 0 0.8em;
+    fill: #333;
+}
+
+.inputBox {
+    background-color: transparent;
+    color: #777;
+    outline: none;
+    width: 100%;
+    border: 0;
+    padding: 0.5em 1.5em 0.5em 0;
+    font-size: 15px;
+}
+
+::placeholder {
+    color: var(--color-place);
+}
+
+body[dir="rtl"] .inputBox_container {
+    flex-direction: row-reverse;
+}
+
+.ico {
+    fill: var(--color-place) !important;
+}

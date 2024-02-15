@@ -1,0 +1,106 @@
+.home {
+    display: flex;
+    border-radius: 20px;
+}
+
+.homeContainer {
+    flex: 6;
+    font-family: 'JosefinSans-Regular';
+}
+.reports{
+    padding: 50px;
+}
+.report{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+        font-family: 'Poppins-Regular';
+}
+.report__btn{
+    display: flex;
+    column-gap: 8px;
+}
+.export__btn{
+    background: linear-gradient(90deg, rgba(21, 191, 253, 0.1) 0%, rgba(0, 255, 194, 0.3) 117.12%) !important;
+    border: none;
+    padding: 8px 40px;
+    border-radius:5px ;
+    color: #fff;
+    font-family: 'Poppins-Regular';
+    -webkit-border-radius:5px ;
+    -moz-border-radius:5px ;
+    -ms-border-radius:5px ;
+    -o-border-radius:5px ;
+}
+.report__details{
+        display: flex;
+        align-items: center;
+        column-gap: 150px;
+        margin-top: 50px;
+        color: #fff;
+        font-family: 'Poppins-Regular';
+       border-bottom: 1px solid #eeeeec;
+       padding-bottom: 20px;
+}
+.report__details div:not(:last-child){
+    border-right: 1px solid #eeeeec;
+    padding-right: 150px;
+}
+.row{
+    width: 100%;
+    column-gap: 20%;
+    margin-top: 30px;
+        border-bottom: 1px solid #eeeeec;
+        padding-bottom: 20px;
+}
+.report__numbers{
+    background-color: #030F28;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: #fff;
+        font-family: 'Poppins-Regular';
+        margin-bottom: 20px;
+}
+.report__numbers h3{
+    font-size: 20px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.report__numbers p{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+.hr{
+    border: 1px solid #eeeeec;
+}
+.expenses__body{
+    background-color: #19253C;
+    height: 100%;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.expenses__body h3{
+        background-color: #173953;
+        padding: 10px;
+        border-radius:20px 20px 0 0 ;
+        -webkit-border-radius:20px 20px 0 0 ;
+        -moz-border-radius:20px 20px 0 0 ;
+        -ms-border-radius:20px 20px 0 0 ;
+        -o-border-radius:20px 20px 0 0 ;
+        text-align: center;
+        color: #fff;
+            font-family: 'Poppins-Regular';
+}
+.tabs{
+    padding: 50px !important;
+    width: 100% !important;
+}
+.thead{
+background-color: #183953 !important;
+}
